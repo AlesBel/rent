@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="f4d5c58d-6e60-41aa-9b8e-3efaa369a7ad" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="repair" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1br8QELs8j2yMlKVb9WrCTWpqKF" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/pages/templates/pages" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Django\repair\pages\templates\pages" />
+      <recent name="D:\Django\repair\pages\static" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Django\repair\pages\static" />
+      <recent name="D:\Django\repair\pages\static\CSS" />
+      <recent name="D:\Django\repair\pages\static\js" />
+      <recent name="D:\Django\repair\pages" />
+      <recent name="D:\Django\repair\pages\templates" />
+    </key>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f4d5c58d-6e60-41aa-9b8e-3efaa369a7ad" name="Default Changelist" comment="" />
+      <created>1589378836444</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1589378836444</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="275" y="21" key="#Inspections" timestamp="1589724280358">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="275" y="21" key="#Inspections/0.0.1366.728@0.0.1366.728" timestamp="1589724280358" />
+    <state x="552" y="177" key="#Intentions" timestamp="1590427523268">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="177" key="#Intentions/1920.312.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1590427523268" />
+    <state x="463" y="118" key="FileChooserDialogImpl" timestamp="1589386365042">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="463" y="118" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1589386365042" />
+    <state x="378" y="186" key="com.intellij.ide.util.TipDialog" timestamp="1591456805130">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="378" y="186" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1591456805130" />
+    <state x="531" y="266" key="com.intellij.ide.util.TipDialog/1920.312.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1591282972470" />
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1590852174328">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1590852174328" />
+  </component>
+</project>

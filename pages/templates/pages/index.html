@@ -1,0 +1,260 @@
+{% load static %}
+
+<html>
+    <head>
+        <title>Аренда|ремонт инструмента</title>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="shortcut icon" href="{% static 'img/drill.png'%}" type="image/png">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+        <link rel="stylesheet" type="text/css" href="{% static 'css/style.css' %}">
+    </head>
+    <body>
+            <nav>
+                <ul>
+                    <li>
+                    <a href="/rent">Aренда инструмента</a>
+                    </li>
+                    <li>
+                        <p><a href="/repair" target="_blank">Ремонт инструмента</a></p>
+                    </li>
+                    <li>
+                     <p><a href="/store" target="_blank">Продажа комплектующих</a></p>
+                    </li>
+                    <li>
+                    <p><a href="/service" target="_blank">Услуги</a></p>
+                    </li>
+                    <li>
+                    <p><a href="/delivery" target="_blank">Доставка</a></p>
+                    </li>
+                    <li>
+                    <p><a href="/contact" target="_blank">Контакты</a></p>
+                    </li>
+                </ul>
+            </nav>
+        <div class="tab-content" id="pills-tabContent">
+            <div class="tab-pane fade" id="rent" role="tabpanel" aria-labelledby="pills-rent-tab">...</div>
+            <div class="tab-pane fade" id="repair" role="tabpanel" aria-labelledby="pills-repair-tab">...</div>
+            <div class="tab-pane fade" id="store" role="tabpanel" aria-labelledby="pills-store-tab">...</div>
+            <div class="tab-pane fade" id="service" role="tabpanel" aria-labelledby="pills-service-tab">...</div>
+            <div class="tab-pane fade" id="delivery" role="tabpanel" aria-labelledby="pills-delivery-tab">...</div>
+            <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="pills-contact-tab">...</div>
+        </div>
+        <div class="container">
+                <div class="containerhead">
+                        <div class="col">
+                            <img id="logo" src="{% static 'img/drill.png'%}" width="45" height="45" alt="drell"></div>
+                        <div class="col">Магазин проката</div>
+                        <div class="col">г.Минск пр. независимости 11</div>
+                        <div class="col">+375333775947</div>
+                    <div class="row">
+                        <div class="col-8">Аренда строительного оборудования и инструмента в Минске и области</div>
+                        <div class="col-4">Заказать звонок</div>
+                    </div>
+                </div>
+        </div>
+        <div class="dropdown">
+            <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Каталог инструментов
+            </a>
+                <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                <a class="dropdown-item" href="#">Штроборез</a>
+                <a class="dropdown-item" href="#">Отбойный молоток</a>
+                <a class="dropdown-item" href="#">Леса</a>
+                </div>
+        </div>
+        <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="{% static 'img/head.jpg'%}" class="d-block w-100" alt="не грузится картинка">
+                </div>
+                <div class="carousel-item">
+                    <img src="{% static 'img/head1.jpg'%}" class="d-block w-100" alt="не грузится картинка">
+                </div>
+                <div class="carousel-item">
+                    <img src="{% static 'img/head2.jpg'%}" class="d-block w-100" alt="не грузится картинка">
+                </div>
+            </div>
+        </div>
+        <div class="section section--none-bottom-padding">
+            <div class="container">
+                <div class="section-title">
+                <span class="blue-text">ПРЕИМУЩЕСТВА АРЕНДЫ</span> НАШЕГО ОБОРУДОВАНИЯ
+                </div>
+                <div class="section-text">
+                    <p class="section-text--align-center">
+                        По сравнению с покупкой, прокат оборудования для разовых или периодических работ является оптимальным вариантом. А если арендовать
+                        его у нашей компании, то можно получить дополнительные преимущества. Выбирая нас для сотрудничества, Вы получите надежную
+                        технику, всестороннюю поддержку и выгодную экономию!
+                    </p>
+                    </div><div class="row advantage">
+                        <div class="col-md-4 col-sm-6">
+                            <div class="advantage_card">
+                                <div class="advantage_card__head">
+                                    <div class="advantage_card__icon">
+                                        <img src="/images/icons/advantage1.png" alt="advantage1">
+                                    </div>
+                                    <div class="advantage_card__title">
+                                    Широкий ассортимент
+                                    новой техники
+                                    </div>
+                                </div>
+                                <div class="advantage_card__info">
+                                В нашем ассортименте представлена новая
+                                техника, которая действительно востребована
+                            </div>
+                            </div>
+                        </div>
+                <div class="col-md-4 col-sm-6">
+                    <div class="advantage_card">
+                        <div class="advantage_card__head">
+                            <div class="advantage_card__icon">
+                                <img src="/images/icons/advantage2.png" alt="advantage2">
+                            </div>
+                            <div class="advantage_card__title">
+                                    Профессиональное
+                                    оборудование
+                                </div>
+                        </div>
+                        <div class="advantage_card__info">
+                                Только качественные профессиональные модели,
+                                имеющие запас прочности и рассчитаные на
+                                интенсивную эксплуатацию
+                            </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6">
+                    <div class="advantage_card"><div class="advantage_card__head">
+                        <div class="advantage_card__icon">
+                            <img src="/images/icons/advantage3.png" alt="advantage3">
+                        </div>
+                        <div class="advantage_card__title">
+                                    Гарантированное
+                                    качество
+                                </div>
+                    </div>
+                        <div class="advantage_card__info">
+                                Клиент получает технически исправный, чистый
+                                инструмент, который полностью подготовлен к
+                                работе
+                            </div>
+                        </div>
+                </div>
+                <div class="col-md-4 col-sm-6">
+                    <div class="advantage_card">
+                        <div class="advantage_card__head">
+                            <div class="advantage_card__icon">
+                                <img src="/images/icons/advantage1.png" alt="advantage1">
+                            </div>
+                            <div class="advantage_card__title">
+                                    Аренда на любой срок
+                                </div>
+                        </div>
+                        <div class="advantage_card__info">
+                                У нас предоставляется возможность оформить
+                                аренду на любой срок – от почасовой до
+                                долгосрочной
+                            </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6">
+                    <div class="advantage_card">
+                        <div class="advantage_card__head">
+                            <div class="advantage_card__icon">
+                                <img src="/images/icons/advantage2.png" alt="advantage2">
+                            </div>
+                            <div class="advantage_card__title">
+                                    Конкурентоспособные
+                                    цены
+                                </div>
+                        </div>
+                        <div class="advantage_card__info">
+                                Наши цены на прокат оборудования находятся на
+                                конкурентном уровне, при аренде нескольких
+                                единиц действуют лояльные условия
+                            </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6"><div class="advantage_card">
+                    <div class="advantage_card__head"><div class="advantage_card__icon">
+                        <img src="/images/icons/advantage3.png" alt="advantage3">
+                    </div>
+                        <div class="advantage_card__title">
+                                    Профессиональная
+                                    консультация
+                                </div>
+                    </div>
+                    <div class="advantage_card__info">
+                                Бесплатное консультационное сопровождение –
+                                помощь в выборе модели, рекомендации по
+                                эксплуатации, ответы на вопросы
+                            </div>
+                    </div>
+                 </div>
+            </div>
+        </div>
+        <div class=" section--none-top-padding">
+             <div class="container">
+                 <div class="lease">
+                     <div class="lease_title">
+                        Как взять оборудование <br>
+                        в аренду?
+                    </div>
+                     <div class="lease_list">
+                         <div class="lease_item">
+                             <div class="lease_item__number">
+                                1
+                            </div>
+                             <div class="lease_item__info">
+                                Выбрать в каталоге
+                                необходимый агрегат
+                                или инструмент
+                            </div>
+                         </div>
+                         <div class="lease_item">
+                             <div class="lease_item__number">
+                                2
+                            </div>
+                             <div class="lease_item__info">
+                                Оформить заявку на
+                                нашем сайте либо по
+                                телефону
+                            </div>
+                         </div>
+                         <div class="lease_item">
+                             <div class="lease_item__number">
+                                3
+                            </div>
+                             <div class="lease_item__info">
+                                Наши менеджеры
+                                свяжутся с Вами для
+                                уточнения деталей
+                            </div>
+                         </div>
+                         <div class="lease_item">
+                             <div class="lease_item__number">
+                                4
+                            </div>
+                             <div class="lease_item__info">
+                                Забрать оборудование
+                                самостоятельно или
+                                заказать доставку
+                            </div>
+                        </div>
+                     </div>
+                 </div>
+            </div>
+             <div class="lease_description">
+                        Возможен самовывоз по адресу: г. Мытищи, Фуражный проезд 4, или доставка транспортной компанией в пределах Москвы и региона.
+                    </div>
+            </div>
+
+            <div class="section-title"><span class="blue-text">Предложение</span> от профессионалов
+                </div>
+            <div class="section-text"><h2 style="text-align: center;">Какие бывают сложности в том, чтоб взять оборудование в аренду?</h2><p>Прокат техники предлагают многие компании. Но, не у всех есть широкий ассортимент, а некоторые укомплектованы дешевыми любительскими моделями, которые быстро выходят из строя, экономят на техническом обслуживании. Также можно столкнуться с завышенной арендной платой или большим залогом.</p><p>Вы избежите всех проблем и сложностей, если обратитесь к нам. Мы точно знаем что нужно нашим клиентам, поэтому создали самые комфортные и выгодные условия.</p><h2 style="text-align: center;">Где взять инструмент напрокат с доставкой на лучших условиях?</h2><p>Оформить технику в аренду у нас – легко и просто.</p><p><strong><em>Достаточно выполнить следующие действия:</em></strong></p><ul><li>выбрать в электронном каталоге необходимый агрегат или инструмент;</li><li>оформить заявку на нашем сайте;</li><li>в течение ближайшего времени менеджеры свяжутся с Вами для уточнения деталей.</li></ul><p>Вы можете забрать оборудование самостоятельно или заказать доставку транспортной компанией в пределах Москвы и Московского региона. Мы приглашаем к сотрудничеству всех заинтересованных лиц, ждем заказов и &nbsp;интересных предложений!</p></div>
+                <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3Ad90e6b3e051f14e7b8c65329e07b6dd98061a9c3de8dd1a5f2ae1c6a8859bee6&amp;source=constructor" width="100%" height="400" frameborder="0"></iframe>
+
+
+    </body>
+</html>
